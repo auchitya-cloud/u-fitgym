@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Website Layout</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20;
+}
+
+/* Style the header */
+.header {
+  background-color: #f0ffff;
+  padding: 20px;
+  text-align: center;
+  margin-left:20px;
+margin-right:20px;
+   opacity: 0.8;
+    filter: alpha(opacity=40);
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+margin-left:20px;
+margin-right:20px;
+  background-color: #333;
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  margin-left: 120px;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 30px;
+  overflow: hidden;
+  color:#f2f2f2;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Style the footer */
+.footer {
+  background-color:#f0ffff;
+  padding: 25px;
+  text-align: center;
+margin-left:20px;
+margin-right:20px;
+
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+}
+
+body {
+ background-image: url("https://www.gannett-cdn.com/presto/2021/07/21/USAT/dfbd657c-1ef5-4dd9-b355-1619bdc2645f-GettyImages-924491214.jpg");
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>U-FIT GYM</h1>
+  <h3>MAKE YOURSELF STRONGER THAN YOUR EXCUSES</h3>
+  <img src = "C:\Users\VARUN SINGH\Downloads\Fitness for anyone.jpg"
+    width="80px"
+    height="80px"
+    vspace= "25">
+</div>
+
+<div class="topnav">
+  <a href="#">Membership Form</a>
+  <a href="#">Image Gallery</a>
+  <a href="#">Feedback Form</a>
+  <a href="#">Programs</a>
+  <a href="paparanjit.html">Supplements</a>
+  <a href="#">Diet Plan</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p> <h2>DEDICATED SUPPORT<br> </h2> <h3> <img src = "contact.png" alt = "contact" width="20px"  height="15px">Call us at 9977347890 (8am to 8pm)  <br> <img src = "mail.png" alt = "mail" width="20px"  height="15px"> Email at ufitgym@gmail.com.<br><br>EASY CANELLATION <br>Simply inform us within 48 hours.<br><br>100% PAYMENT SECURE<br> We ensure secure payment</h3></p>
+
+</div>
+<img src ="Fitness for anyone.jpg" width="50" height="50">
+
+
+</body>
+</html>
